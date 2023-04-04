@@ -74,6 +74,7 @@ class AddIDState extends State<AddID> {
               },
               child: const Text("Search"),
             ),
+            ElevatedButton(onPressed: () {}, child: const Text("Show Current")),
             ElevatedButton(
               onPressed: () {},
               child: const Text("Next Picture"),
